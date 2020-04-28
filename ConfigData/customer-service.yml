@@ -1,3 +1,6 @@
+server:
+  port: 8082
+
 #To see H2 Console in Browser
 #http://localhost:8091/h2-console
 #Enabling H2 Console
