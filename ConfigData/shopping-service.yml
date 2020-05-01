@@ -16,3 +16,12 @@ jpa:
   show-sql: true
   hibernate:
     ddl-auto: update
+
+Feign:
+  hystrix:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"    
